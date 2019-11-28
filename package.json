@@ -1,0 +1,40 @@
+{
+  "name": "slindo-com-website",
+  "version": "0.1.0",
+  "description": "The website of slindo.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/slindo-com/website.git"
+  },
+  "keywords": [
+    "website",
+    "slindo-com"
+  ],
+  "author": "Benjamin Kowalski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/slindo-com/website/issues"
+  },
+  "homepage": "https://github.com/slindo-com/website#readme",
+  "devDependencies": {
+    "browser-sync": "*",
+    "del": "*",
+    "gulp": "^3.*",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-file-include": "*",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "*",
+    "gulp-load-plugins": "^1.3.0",
+    "gulp-sass": "*",
+    "gulp-svg-sprite": "^1.3.7",
+    "gulp-uglify": "*",
+    "gulp-useref": "^3.1.2",
+    "gulp-autoprefixer": "^5.0.0"
+  }
+}
